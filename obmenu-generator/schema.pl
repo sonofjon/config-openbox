@@ -57,7 +57,8 @@ our $SCHEMA = [
     #{end => undef},
 
     #            COMMAND     LABEL        ICON
-    #{pipe => ['obbrowser', 'Disk', 'drive-harddisk']},
+    {sep => undef},
+    {pipe => ['obbrowser', 'Disk', 'drive-harddisk']},
 
     ## Generic advanced settings
     #{sep       => undef},
