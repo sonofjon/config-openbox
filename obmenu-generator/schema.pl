@@ -103,8 +103,8 @@ our $SCHEMA = [
     #{item => ['xscreensaver-command -lock', 'Lock', 'system-lock-screen']},
 
     ## This option uses the default Openbox's "Exit" action
-    {exit => ['Logout', 'application-exit']},
+    {exit => ['Logout', 'xfsm-logout']},
 
     ## This uses the 'oblogout' menu
-    #{item => ['oblogout', 'Exit', 'application-exit']},
+    {item => ['oblogout', 'Exit', 'system-shutdown']},
 ]
