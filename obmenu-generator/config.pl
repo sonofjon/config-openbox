@@ -47,7 +47,7 @@
 =cut
 
 our $CONFIG = {
-  "editor"              => "geany",
+  "editor"              => "xed",
   "force_icon_size"     => 0,
   "generic_fallback"    => 0,
   "gtk_rc_filename"     => "$ENV{HOME}/.config/gtk-3.0/settings.ini",
@@ -70,6 +70,6 @@ our $CONFIG = {
                            },
   "locale_support"      => 1,
   "missing_icon"        => "gtk-missing-image",
-  "terminal"            => "xterm",
+  "terminal"            => "lxterminal",
   "VERSION"             => "0.90",
 }
