@@ -33,7 +33,7 @@
 our $CONFIG = {
   browse_label      => "Browse here...",
   dirs_first        => 1,
-  file_manager      => "thunar",
+  file_manager      => "pcmanfm",
   file_manager_icon => "folder-open",
   force_icon_size   => 0,
   generic_fallback  => 1,
@@ -43,7 +43,7 @@ our $CONFIG = {
   ignore_dotfiles   => 1,
   mime_ext_only     => 0,
   start_path        => "$ENV{HOME}",
-  terminal          => "tilix --working-directory",
+  terminal          => "lxterminal --working-directory",
   terminal_icon     => "utilities-terminal",
   terminal_label    => "Terminal here...",
   VERSION           => 0.14,
